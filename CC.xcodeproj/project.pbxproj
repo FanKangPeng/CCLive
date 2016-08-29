@@ -15,6 +15,36 @@
 		6A0449371D6D2B7F009DA2CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A0449351D6D2B7F009DA2CB /* LaunchScreen.storyboard */; };
 		6A0449421D6D2B7F009DA2CB /* CCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0449411D6D2B7F009DA2CB /* CCTests.m */; };
 		6A04494D1D6D2B7F009DA2CB /* CCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A04494C1D6D2B7F009DA2CB /* CCUITests.m */; };
+		6A04495B1D6D2E1C009DA2CB /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A04495A1D6D2E1C009DA2CB /* IJKMediaFramework.framework */; };
+		6A04495D1D6D2E24009DA2CB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A04495C1D6D2E24009DA2CB /* AudioToolbox.framework */; };
+		6A04495F1D6D2E30009DA2CB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A04495E1D6D2E30009DA2CB /* MediaPlayer.framework */; };
+		6A0449611D6D2E44009DA2CB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0449601D6D2E44009DA2CB /* AVFoundation.framework */; };
+		6A0449631D6D2E4F009DA2CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0449621D6D2E4F009DA2CB /* CoreGraphics.framework */; };
+		6A0449651D6D2E55009DA2CB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0449641D6D2E55009DA2CB /* CoreMedia.framework */; };
+		6A0449671D6D2E5B009DA2CB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0449661D6D2E5B009DA2CB /* libz.tbd */; };
+		6A0449691D6D2E60009DA2CB /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0449681D6D2E60009DA2CB /* libbz2.tbd */; };
+		6A04496B1D6D2E67009DA2CB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A04496A1D6D2E67009DA2CB /* OpenGLES.framework */; };
+		6A04496D1D6D2E6C009DA2CB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A04496C1D6D2E6C009DA2CB /* QuartzCore.framework */; };
+		6A04496F1D6D2E70009DA2CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A04496E1D6D2E70009DA2CB /* UIKit.framework */; };
+		6A0449711D6D2E74009DA2CB /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0449701D6D2E74009DA2CB /* VideoToolbox.framework */; };
+		6A0449791D6D2F0F009DA2CB /* FKPTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0449781D6D2F0F009DA2CB /* FKPTabbarController.m */; };
+		6A04497C1D6D2F30009DA2CB /* FKPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A04497B1D6D2F30009DA2CB /* FKPNavigationController.m */; };
+		6A1C9A561D6EB5A80091BA98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A1C9A551D6EB5A80091BA98 /* Images.xcassets */; };
+		6A1C9A5C1D6EBF3F0091BA98 /* FKPADController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1C9A5B1D6EBF3F0091BA98 /* FKPADController.m */; };
+		6A1C9A5F1D6EBF560091BA98 /* FKPYDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1C9A5E1D6EBF560091BA98 /* FKPYDController.m */; };
+		6A1C9A621D6EC5D40091BA98 /* FKPHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1C9A611D6EC5D40091BA98 /* FKPHomeController.m */; };
+		6A1C9A691D6EC6420091BA98 /* FKPLiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1C9A681D6EC6420091BA98 /* FKPLiveController.m */; };
+		6A1C9A6C1D6EC65A0091BA98 /* FKPCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1C9A6B1D6EC65A0091BA98 /* FKPCenterController.m */; };
+		6A1C9A711D6EC71A0091BA98 /* FKPVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1C9A701D6EC71A0091BA98 /* FKPVideoController.m */; };
+		6A1C9A761D6EC7420091BA98 /* FKPMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1C9A751D6EC7420091BA98 /* FKPMessageController.m */; };
+		6A3EA7EE1D703EF6002AD9A1 /* FKPRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3EA7ED1D703EF6002AD9A1 /* FKPRefreshHeader.m */; };
+		6A5E4F561D6D3E9B00CC50BA /* FKPProductMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5E4F551D6D3E9B00CC50BA /* FKPProductMethods.m */; };
+		6A6295D71D70134D0006EF36 /* AFNetWorkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6295D61D70134D0006EF36 /* AFNetWorkTools.m */; };
+		6A6295DA1D70168F0006EF36 /* LoadIMG.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6295D91D70168F0006EF36 /* LoadIMG.m */; };
+		6AC264341D741EDD0040A548 /* FKPLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC264331D741EDD0040A548 /* FKPLiveCell.m */; };
+		6AC264371D74367A0040A548 /* FKPLiveListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC264361D74367A0040A548 /* FKPLiveListController.m */; };
+		6ACE3D981D6ECBC700E42B3B /* FKPBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACE3D971D6ECBC700E42B3B /* FKPBaseController.m */; };
+		CE897C5796EB48AFFC28B991 /* libPods-CC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B7163CD7E796B049086B7D /* libPods-CC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +65,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D7AE3930D8CAB5E6BCB7424 /* Pods-CC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CC.release.xcconfig"; path = "Pods/Target Support Files/Pods-CC/Pods-CC.release.xcconfig"; sourceTree = "<group>"; };
+		59E746956DF8BA8A380B29B5 /* Pods-CC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CC/Pods-CC.debug.xcconfig"; sourceTree = "<group>"; };
 		6A0449241D6D2B7E009DA2CB /* CC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A0449281D6D2B7E009DA2CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6A04492A1D6D2B7E009DA2CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +83,53 @@
 		6A0449481D6D2B7F009DA2CB /* CCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A04494C1D6D2B7F009DA2CB /* CCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCUITests.m; sourceTree = "<group>"; };
 		6A04494E1D6D2B7F009DA2CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A04495A1D6D2E1C009DA2CB /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		6A04495C1D6D2E24009DA2CB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6A04495E1D6D2E30009DA2CB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6A0449601D6D2E44009DA2CB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6A0449621D6D2E4F009DA2CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A0449641D6D2E55009DA2CB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6A0449661D6D2E5B009DA2CB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6A0449681D6D2E60009DA2CB /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		6A04496A1D6D2E67009DA2CB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		6A04496C1D6D2E6C009DA2CB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6A04496E1D6D2E70009DA2CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A0449701D6D2E74009DA2CB /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		6A0449771D6D2F0F009DA2CB /* FKPTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FKPTabbarController.h; path = Base/Controllers/FKPTabbarController.h; sourceTree = "<group>"; };
+		6A0449781D6D2F0F009DA2CB /* FKPTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FKPTabbarController.m; path = Base/Controllers/FKPTabbarController.m; sourceTree = "<group>"; };
+		6A04497A1D6D2F30009DA2CB /* FKPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FKPNavigationController.h; path = Base/Controllers/FKPNavigationController.h; sourceTree = "<group>"; };
+		6A04497B1D6D2F30009DA2CB /* FKPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FKPNavigationController.m; path = Base/Controllers/FKPNavigationController.m; sourceTree = "<group>"; };
+		6A1C9A551D6EB5A80091BA98 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6A1C9A5A1D6EBF3F0091BA98 /* FKPADController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FKPADController.h; path = Home/Controllers/FKPADController.h; sourceTree = "<group>"; };
+		6A1C9A5B1D6EBF3F0091BA98 /* FKPADController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FKPADController.m; path = Home/Controllers/FKPADController.m; sourceTree = "<group>"; };
+		6A1C9A5D1D6EBF560091BA98 /* FKPYDController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FKPYDController.h; path = Home/Controllers/FKPYDController.h; sourceTree = "<group>"; };
+		6A1C9A5E1D6EBF560091BA98 /* FKPYDController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FKPYDController.m; path = Home/Controllers/FKPYDController.m; sourceTree = "<group>"; };
+		6A1C9A601D6EC5D40091BA98 /* FKPHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FKPHomeController.h; path = Home/Controllers/FKPHomeController.h; sourceTree = "<group>"; };
+		6A1C9A611D6EC5D40091BA98 /* FKPHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FKPHomeController.m; path = Home/Controllers/FKPHomeController.m; sourceTree = "<group>"; };
+		6A1C9A671D6EC6420091BA98 /* FKPLiveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FKPLiveController.h; path = Live/Controllers/FKPLiveController.h; sourceTree = "<group>"; };
+		6A1C9A681D6EC6420091BA98 /* FKPLiveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FKPLiveController.m; path = Live/Controllers/FKPLiveController.m; sourceTree = "<group>"; };
+		6A1C9A6A1D6EC65A0091BA98 /* FKPCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FKPCenterController.h; path = Center/Controllers/FKPCenterController.h; sourceTree = "<group>"; };
+		6A1C9A6B1D6EC65A0091BA98 /* FKPCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FKPCenterController.m; path = Center/Controllers/FKPCenterController.m; sourceTree = "<group>"; };
+		6A1C9A6F1D6EC71A0091BA98 /* FKPVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FKPVideoController.h; path = Video/Controllers/FKPVideoController.h; sourceTree = "<group>"; };
+		6A1C9A701D6EC71A0091BA98 /* FKPVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FKPVideoController.m; path = Video/Controllers/FKPVideoController.m; sourceTree = "<group>"; };
+		6A1C9A741D6EC7420091BA98 /* FKPMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FKPMessageController.h; path = Message/Controllers/FKPMessageController.h; sourceTree = "<group>"; };
+		6A1C9A751D6EC7420091BA98 /* FKPMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FKPMessageController.m; path = Message/Controllers/FKPMessageController.m; sourceTree = "<group>"; };
+		6A3EA7EC1D703EF6002AD9A1 /* FKPRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FKPRefreshHeader.h; path = Public/View/FKPRefreshHeader.h; sourceTree = "<group>"; };
+		6A3EA7ED1D703EF6002AD9A1 /* FKPRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FKPRefreshHeader.m; path = Public/View/FKPRefreshHeader.m; sourceTree = "<group>"; };
+		6A5E4F541D6D3E9B00CC50BA /* FKPProductMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FKPProductMethods.h; path = Base/Unitls/FKPProductMethods.h; sourceTree = "<group>"; };
+		6A5E4F551D6D3E9B00CC50BA /* FKPProductMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FKPProductMethods.m; path = Base/Unitls/FKPProductMethods.m; sourceTree = "<group>"; };
+		6A5E4F571D6D3EE200CC50BA /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6A6295D51D70134D0006EF36 /* AFNetWorkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetWorkTools.h; path = Network/AFNetWorkTools.h; sourceTree = "<group>"; };
+		6A6295D61D70134D0006EF36 /* AFNetWorkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFNetWorkTools.m; path = Network/AFNetWorkTools.m; sourceTree = "<group>"; };
+		6A6295D81D70168F0006EF36 /* LoadIMG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadIMG.h; path = Network/LoadIMG.h; sourceTree = "<group>"; };
+		6A6295D91D70168F0006EF36 /* LoadIMG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadIMG.m; path = Network/LoadIMG.m; sourceTree = "<group>"; };
+		6AC264321D741EDD0040A548 /* FKPLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FKPLiveCell.h; path = Live/View/FKPLiveCell.h; sourceTree = "<group>"; };
+		6AC264331D741EDD0040A548 /* FKPLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FKPLiveCell.m; path = Live/View/FKPLiveCell.m; sourceTree = "<group>"; };
+		6AC264351D74367A0040A548 /* FKPLiveListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FKPLiveListController.h; path = Live/Controllers/FKPLiveListController.h; sourceTree = "<group>"; };
+		6AC264361D74367A0040A548 /* FKPLiveListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FKPLiveListController.m; path = Live/Controllers/FKPLiveListController.m; sourceTree = "<group>"; };
+		6ACE3D961D6ECBC700E42B3B /* FKPBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FKPBaseController.h; path = Base/Controllers/FKPBaseController.h; sourceTree = "<group>"; };
+		6ACE3D971D6ECBC700E42B3B /* FKPBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FKPBaseController.m; path = Base/Controllers/FKPBaseController.m; sourceTree = "<group>"; };
+		C1B7163CD7E796B049086B7D /* libPods-CC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +137,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A0449711D6D2E74009DA2CB /* VideoToolbox.framework in Frameworks */,
+				6A04496F1D6D2E70009DA2CB /* UIKit.framework in Frameworks */,
+				6A04496D1D6D2E6C009DA2CB /* QuartzCore.framework in Frameworks */,
+				6A04496B1D6D2E67009DA2CB /* OpenGLES.framework in Frameworks */,
+				6A0449691D6D2E60009DA2CB /* libbz2.tbd in Frameworks */,
+				6A0449671D6D2E5B009DA2CB /* libz.tbd in Frameworks */,
+				6A0449651D6D2E55009DA2CB /* CoreMedia.framework in Frameworks */,
+				6A0449631D6D2E4F009DA2CB /* CoreGraphics.framework in Frameworks */,
+				6A0449611D6D2E44009DA2CB /* AVFoundation.framework in Frameworks */,
+				6A04495F1D6D2E30009DA2CB /* MediaPlayer.framework in Frameworks */,
+				6A04495D1D6D2E24009DA2CB /* AudioToolbox.framework in Frameworks */,
+				CE897C5796EB48AFFC28B991 /* libPods-CC.a in Frameworks */,
+				6A04495B1D6D2E1C009DA2CB /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +170,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B4BE687F2E94F10F8A05315 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59E746956DF8BA8A380B29B5 /* Pods-CC.debug.xcconfig */,
+				4D7AE3930D8CAB5E6BCB7424 /* Pods-CC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6A04491B1D6D2B7D009DA2CB = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +186,8 @@
 				6A0449401D6D2B7F009DA2CB /* CCTests */,
 				6A04494B1D6D2B7F009DA2CB /* CCUITests */,
 				6A0449251D6D2B7E009DA2CB /* Products */,
+				3B4BE687F2E94F10F8A05315 /* Pods */,
+				E773E5F217A5CFD806856B55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +204,10 @@
 		6A0449261D6D2B7E009DA2CB /* CC */ = {
 			isa = PBXGroup;
 			children = (
+				6A6295D41D7012EB0006EF36 /* Public */,
+				6A6295D31D7011EE0006EF36 /* Network */,
+				6A0449721D6D2E7F009DA2CB /* Class */,
+				6A5E4FC61D6D6F0300CC50BA /* Category */,
 				6A04492A1D6D2B7E009DA2CB /* AppDelegate.h */,
 				6A04492B1D6D2B7E009DA2CB /* AppDelegate.m */,
 				6A04492D1D6D2B7F009DA2CB /* ViewController.h */,
@@ -109,6 +216,8 @@
 				6A0449331D6D2B7F009DA2CB /* Assets.xcassets */,
 				6A0449351D6D2B7F009DA2CB /* LaunchScreen.storyboard */,
 				6A0449381D6D2B7F009DA2CB /* Info.plist */,
+				6A5E4F571D6D3EE200CC50BA /* PrefixHeader.pch */,
+				6A1C9A551D6EB5A80091BA98 /* Images.xcassets */,
 				6A0449271D6D2B7E009DA2CB /* Supporting Files */,
 			);
 			path = CC;
@@ -140,6 +249,206 @@
 			path = CCUITests;
 			sourceTree = "<group>";
 		};
+		6A0449721D6D2E7F009DA2CB /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				6A0449751D6D2EF4009DA2CB /* Base */,
+				6A1C9A721D6EC71F0091BA98 /* Message */,
+				6A1C9A6D1D6EC6F50091BA98 /* Video */,
+				6A0449731D6D2E85009DA2CB /* Home */,
+				6A1C9A631D6EC5E10091BA98 /* Live */,
+				6A1C9A641D6EC5EF0091BA98 /* Center */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		6A0449731D6D2E85009DA2CB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6A0449741D6D2E89009DA2CB /* Controllers */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		6A0449741D6D2E89009DA2CB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6A1C9A5A1D6EBF3F0091BA98 /* FKPADController.h */,
+				6A1C9A5B1D6EBF3F0091BA98 /* FKPADController.m */,
+				6A1C9A5D1D6EBF560091BA98 /* FKPYDController.h */,
+				6A1C9A5E1D6EBF560091BA98 /* FKPYDController.m */,
+				6A1C9A601D6EC5D40091BA98 /* FKPHomeController.h */,
+				6A1C9A611D6EC5D40091BA98 /* FKPHomeController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6A0449751D6D2EF4009DA2CB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6A04497D1D6D32E2009DA2CB /* Unitls */,
+				6A0449761D6D2EFA009DA2CB /* Controllers */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		6A0449761D6D2EFA009DA2CB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6A0449771D6D2F0F009DA2CB /* FKPTabbarController.h */,
+				6A0449781D6D2F0F009DA2CB /* FKPTabbarController.m */,
+				6A04497A1D6D2F30009DA2CB /* FKPNavigationController.h */,
+				6A04497B1D6D2F30009DA2CB /* FKPNavigationController.m */,
+				6ACE3D961D6ECBC700E42B3B /* FKPBaseController.h */,
+				6ACE3D971D6ECBC700E42B3B /* FKPBaseController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6A04497D1D6D32E2009DA2CB /* Unitls */ = {
+			isa = PBXGroup;
+			children = (
+				6A5E4F541D6D3E9B00CC50BA /* FKPProductMethods.h */,
+				6A5E4F551D6D3E9B00CC50BA /* FKPProductMethods.m */,
+			);
+			name = Unitls;
+			sourceTree = "<group>";
+		};
+		6A1C9A631D6EC5E10091BA98 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				6AC264311D741EB20040A548 /* View */,
+				6A1C9A651D6EC6200091BA98 /* Controllers */,
+			);
+			name = Live;
+			sourceTree = "<group>";
+		};
+		6A1C9A641D6EC5EF0091BA98 /* Center */ = {
+			isa = PBXGroup;
+			children = (
+				6A1C9A661D6EC6290091BA98 /* Controllers */,
+			);
+			name = Center;
+			sourceTree = "<group>";
+		};
+		6A1C9A651D6EC6200091BA98 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6A1C9A671D6EC6420091BA98 /* FKPLiveController.h */,
+				6A1C9A681D6EC6420091BA98 /* FKPLiveController.m */,
+				6AC264351D74367A0040A548 /* FKPLiveListController.h */,
+				6AC264361D74367A0040A548 /* FKPLiveListController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6A1C9A661D6EC6290091BA98 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6A1C9A6A1D6EC65A0091BA98 /* FKPCenterController.h */,
+				6A1C9A6B1D6EC65A0091BA98 /* FKPCenterController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6A1C9A6D1D6EC6F50091BA98 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				6A1C9A6E1D6EC7050091BA98 /* Controllers */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		6A1C9A6E1D6EC7050091BA98 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6A1C9A6F1D6EC71A0091BA98 /* FKPVideoController.h */,
+				6A1C9A701D6EC71A0091BA98 /* FKPVideoController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6A1C9A721D6EC71F0091BA98 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				6A1C9A731D6EC7270091BA98 /* Controllers */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		6A1C9A731D6EC7270091BA98 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6A1C9A741D6EC7420091BA98 /* FKPMessageController.h */,
+				6A1C9A751D6EC7420091BA98 /* FKPMessageController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6A3EA7E81D703452002AD9A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6A3EA7EC1D703EF6002AD9A1 /* FKPRefreshHeader.h */,
+				6A3EA7ED1D703EF6002AD9A1 /* FKPRefreshHeader.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6A5E4FC61D6D6F0300CC50BA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		6A6295D31D7011EE0006EF36 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6A6295D51D70134D0006EF36 /* AFNetWorkTools.h */,
+				6A6295D61D70134D0006EF36 /* AFNetWorkTools.m */,
+				6A6295D81D70168F0006EF36 /* LoadIMG.h */,
+				6A6295D91D70168F0006EF36 /* LoadIMG.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		6A6295D41D7012EB0006EF36 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				6A3EA7E81D703452002AD9A1 /* Views */,
+			);
+			name = Public;
+			sourceTree = "<group>";
+		};
+		6AC264311D741EB20040A548 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6AC264321D741EDD0040A548 /* FKPLiveCell.h */,
+				6AC264331D741EDD0040A548 /* FKPLiveCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E773E5F217A5CFD806856B55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A0449701D6D2E74009DA2CB /* VideoToolbox.framework */,
+				6A04496E1D6D2E70009DA2CB /* UIKit.framework */,
+				6A04496C1D6D2E6C009DA2CB /* QuartzCore.framework */,
+				6A04496A1D6D2E67009DA2CB /* OpenGLES.framework */,
+				6A0449681D6D2E60009DA2CB /* libbz2.tbd */,
+				6A0449661D6D2E5B009DA2CB /* libz.tbd */,
+				6A0449641D6D2E55009DA2CB /* CoreMedia.framework */,
+				6A0449621D6D2E4F009DA2CB /* CoreGraphics.framework */,
+				6A0449601D6D2E44009DA2CB /* AVFoundation.framework */,
+				6A04495E1D6D2E30009DA2CB /* MediaPlayer.framework */,
+				6A04495C1D6D2E24009DA2CB /* AudioToolbox.framework */,
+				6A04495A1D6D2E1C009DA2CB /* IJKMediaFramework.framework */,
+				C1B7163CD7E796B049086B7D /* libPods-CC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +456,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A0449511D6D2B7F009DA2CB /* Build configuration list for PBXNativeTarget "CC" */;
 			buildPhases = (
+				34EA864B2254DB59796BD414 /* [CP] Check Pods Manifest.lock */,
 				6A0449201D6D2B7D009DA2CB /* Sources */,
 				6A0449211D6D2B7D009DA2CB /* Frameworks */,
 				6A0449221D6D2B7D009DA2CB /* Resources */,
+				A050DBA2B124E5628F26B1B2 /* [CP] Embed Pods Frameworks */,
+				5BC4BFE64B18C4BE3D06ACE0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +519,7 @@
 				TargetAttributes = {
 					6A0449231D6D2B7D009DA2CB = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = L23AN4MA3N;
 					};
 					6A04493C1D6D2B7F009DA2CB = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -244,6 +557,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A0449371D6D2B7F009DA2CB /* LaunchScreen.storyboard in Resources */,
+				6A1C9A561D6EB5A80091BA98 /* Images.xcassets in Resources */,
 				6A0449341D6D2B7F009DA2CB /* Assets.xcassets in Resources */,
 				6A0449321D6D2B7F009DA2CB /* Main.storyboard in Resources */,
 			);
@@ -265,14 +579,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34EA864B2254DB59796BD414 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5BC4BFE64B18C4BE3D06ACE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CC/Pods-CC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A050DBA2B124E5628F26B1B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CC/Pods-CC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A0449201D6D2B7D009DA2CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6A04492F1D6D2B7F009DA2CB /* ViewController.m in Sources */,
+				6AC264371D74367A0040A548 /* FKPLiveListController.m in Sources */,
+				6A6295DA1D70168F0006EF36 /* LoadIMG.m in Sources */,
+				6A6295D71D70134D0006EF36 /* AFNetWorkTools.m in Sources */,
+				6A1C9A691D6EC6420091BA98 /* FKPLiveController.m in Sources */,
+				6A3EA7EE1D703EF6002AD9A1 /* FKPRefreshHeader.m in Sources */,
+				6A0449791D6D2F0F009DA2CB /* FKPTabbarController.m in Sources */,
+				6ACE3D981D6ECBC700E42B3B /* FKPBaseController.m in Sources */,
+				6A5E4F561D6D3E9B00CC50BA /* FKPProductMethods.m in Sources */,
 				6A04492C1D6D2B7E009DA2CB /* AppDelegate.m in Sources */,
+				6A1C9A5F1D6EBF560091BA98 /* FKPYDController.m in Sources */,
+				6A1C9A761D6EC7420091BA98 /* FKPMessageController.m in Sources */,
+				6AC264341D741EDD0040A548 /* FKPLiveCell.m in Sources */,
+				6A04497C1D6D2F30009DA2CB /* FKPNavigationController.m in Sources */,
+				6A1C9A5C1D6EBF3F0091BA98 /* FKPADController.m in Sources */,
+				6A1C9A621D6EC5D40091BA98 /* FKPHomeController.m in Sources */,
+				6A1C9A6C1D6EC65A0091BA98 /* FKPCenterController.m in Sources */,
 				6A0449291D6D2B7E009DA2CB /* main.m in Sources */,
+				6A1C9A711D6EC71A0091BA98 /* FKPVideoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +742,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -402,7 +780,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -411,23 +789,47 @@
 		};
 		6A0449521D6D2B7F009DA2CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59E746956DF8BA8A380B29B5 /* Pods-CC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/CC/PrefixHeader.pch";
 				INFOPLIST_FILE = CC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CC.CC;
+				PRODUCT_BUNDLE_IDENTIFIER = comCC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		6A0449531D6D2B7F009DA2CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D7AE3930D8CAB5E6BCB7424 /* Pods-CC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/CC/PrefixHeader.pch";
 				INFOPLIST_FILE = CC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CC.CC;
+				PRODUCT_BUNDLE_IDENTIFIER = comCC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -436,6 +838,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CC.CCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,6 +851,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CC.CCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -459,6 +863,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = CCUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CC.CCUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -470,6 +875,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = CCUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CC.CCUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +902,7 @@
 				6A0449531D6D2B7F009DA2CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A0449541D6D2B7F009DA2CB /* Build configuration list for PBXNativeTarget "CCTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +911,7 @@
 				6A0449561D6D2B7F009DA2CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A0449571D6D2B7F009DA2CB /* Build configuration list for PBXNativeTarget "CCUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +920,7 @@
 				6A0449591D6D2B7F009DA2CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

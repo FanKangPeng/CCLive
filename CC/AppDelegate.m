@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
+#import "FKPTabbarController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +17,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+   
+    [AFNetWorkTools startMonitoring];
+    ViewController  *viewcontroller = [[ViewController  alloc] init];
+    self.window = [[UIWindow alloc] initWithFrame:FScreenBounds];
+    self.window.rootViewController = viewcontroller;
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

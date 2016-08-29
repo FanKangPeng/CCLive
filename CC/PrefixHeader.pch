@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  CC
+//
+//  Created by 樊康鹏 on 16/8/24.
+//  Copyright © 2016年 FanKaren. All rights reserved.
+//
+#import <Availability.h>
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import "FKPProductMethods.h"
+    #import "FanKit.h"
+    #import <UIImageView+WebCache.h>
+    #import "ReactiveCocoa.h"
+    #import "AFNetWorkTools.h"
+    #import <UIView+SDAutoLayout.h>
+    #import <UITableView+SDAutoTableViewCellHeight.h>
+    #import "UITableView+FDTemplateLayoutCell.h"
+#endif
+
+
+#define BaseUrl @"https://www.baidu.com"
