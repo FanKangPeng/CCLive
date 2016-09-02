@@ -59,7 +59,7 @@
     
     // 字体颜色 未选中
     [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : DefaultFontSize(11),  NSForegroundColorAttributeName:[UIColor grayColor]} forState:UIControlStateNormal];
-//    self.viewControllers = @[homeNavi,videoNavi,liveNavi,messageNavi,centerNavi];
+
  
 }
 
